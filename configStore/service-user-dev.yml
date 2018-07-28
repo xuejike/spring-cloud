@@ -1,1 +1,10 @@
-xuejike=hhh
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    data-username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/spring_cloud_db
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
